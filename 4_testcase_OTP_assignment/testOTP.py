@@ -11,8 +11,8 @@ class Test_otp(unittest.TestCase,BetweenAssertMixin):
     def testcase1(self):
         print("---------TestCase_No.1---------")
         #Checking Email
-        Name="Vishal"
-        Email="vishalbhure611@gmail.com"
+        Name="akarshan"
+        Email="akarshanrasyal4@gmail.com"
         self.assertIn("@",Email)
         self.assertIn(".",Email)
         self.assertIn("com",Email)
@@ -34,8 +34,8 @@ class Test_otp(unittest.TestCase,BetweenAssertMixin):
     def testcase2(self):
         #Checking Email with wrong email id
         print("---------TestCase_No.2---------")
-        Name="Vishal"
-        Email="vishalbhure611gmail.com"
+        Name="akarshan"
+        Email="akarshanrasyalgmail.com"
 
         self.assertIn("@",Email)
         self.assertIn(".",Email)
@@ -58,8 +58,8 @@ class Test_otp(unittest.TestCase,BetweenAssertMixin):
     def testcase3(self):
         #Checking Email
         print("---------TestCase_No.3---------")
-        Name="vishal"
-        Email="vishalbhure611@gmail.com"
+        Name="akarshan"
+        Email="akarshanrasyal4@gmail.com"
         self.assertIn("@",Email)
         self.assertIn(".",Email)
         self.assertIn("com",Email)
